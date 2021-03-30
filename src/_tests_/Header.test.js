@@ -15,7 +15,7 @@ it('shows dropdown when hamburger is clicked', () => {
     
     const hamburger = getByTestId('hamburger-button')
 
-    //fireEvent clicks the hamburger-button
+    //fireEvent clicks the hamburger-button hello
     fireEvent.click(hamburger)
     expect(container.textContent).toContain('Dropdown menu')
 

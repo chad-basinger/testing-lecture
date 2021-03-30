@@ -58,7 +58,7 @@ test('axios request test', async () => {
     expect(data.name).toEqual('Leanne Graham')
 
 
-    // expect(functions.getUser().hasAssertions().toEqual(expect.stringContaining('Leanne'))
+    // expect(functions.getUser().hasAssertions().toEqual(expect.stringContaining('Leanne')) test
 })
 
 let bankAccount = { 
